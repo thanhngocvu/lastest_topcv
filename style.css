@@ -241,3 +241,41 @@ hr{
         color: red;
     }
 }
+
+.foot{
+    margin:  30px auto;
+    height: 500px;
+    width: 90%;
+    
+
+}
+
+.footer-up{
+    color: #999999;
+    display: flex;
+}
+.footer-top-left{
+    display: flex;
+    width: 59%;
+    
+    height: 500px;
+}
+
+.footer-top-left div{
+    margin: 20px 20px 30px 0px;
+}
+.connect li{
+    margin:0 0 30px 20px;
+}
+
+.list li{
+    margin: 0 10px 15px 0;
+}
+.connect i{
+    color: #999999;
+}
+.footer-top-right{
+    width: 41%;
+    background-color: aqua;
+    height: 500px;
+}
