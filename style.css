@@ -13,6 +13,14 @@ ul {
     filter: contrast(12px);
     font-weight: bold;
 }
+
+.main a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    filter: contrast(12px);
+    font-weight: bold;
+}
 .nav-bar2 a{
     font-size: 14px;
     font-weight: normal;
@@ -22,6 +30,23 @@ ul {
     color: green;
     text-decoration: none;
 }
+.main a:hover{|
+    color: green;
+    text-decoration: none;  
+}
+.foot a {
+    font-size: 14px;
+    color: #999999;
+}
+
+.foot{
+    padding-top: 20px;
+    background-color: white;
+}
+.foot a:hover{
+    color: black;
+    text-decoration: none;  
+}
 .big-contain{
     background-color: #f0f0f0;
 }
@@ -30,7 +55,7 @@ ul {
     display: none;
 }
 .header{
-    padding: 0 5% 0 5%;
+    padding: 0 15% 0 15%;
     background-color: white;
      margin: auto;
      
@@ -57,6 +82,10 @@ ul {
 hr{
     margin: 0;
     border: 0.5px solid gray;
+}
+
+.hr:hover{
+    filter: invert(9%);
 }
 
 .list1{
@@ -137,7 +166,7 @@ hr{
     border: 2px solid black;
 }
 .main{
-    padding: 0 5% 0 5%;
+    padding: 0 15% 0 15%;
     display: flex;
     width: 100%;
     margin: auto;
@@ -245,7 +274,11 @@ hr{
     background-color: white;
     padding: 10px 20px 0 20px;
 }
-
+@media only screen and (max-width: 1000px){
+    .nav-bar1{
+        flex-flow: wrap;
+    }
+}
 @media only screen and (max-width: 800px){
     .nav-bar1{
         display: flex;
@@ -285,9 +318,18 @@ hr{
     .nav-bar2 .list2{
         color: red;
     }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex ul img{
+        width: 100%;
+
+    }
 }
 
 .foot{
+    
     margin:  30px auto;
     height: auto;
     width: 100%;
@@ -298,17 +340,19 @@ hr{
 .footer-up{
     color: #999999;
     display: flex;
-    padding: 0 5% 0 5%;
+    justify-content: space-between;
+    padding: 0 15% 0 15%;
+    
 }
 .footer-top-left{
     display: flex;
-    width: 59%;
+    width: auto;
+    height: auto;
     
-    height: 500px;
 }
 
 .footer-top-left div{
-    margin: 20px 20px 30px 0px;
+    
 }
 .connect li{
     margin:0 0 30px 20px;
@@ -329,15 +373,13 @@ hr{
 }
 
 
-.flex ul{
-    border: 1px solid black;
-}
+
 
 .flex img{
     margin-right: 10px;
 }
 .footer-top-right{
-    width: 41%;
+    width: auto;
     background-color:;
     height: 500px;
 }
@@ -365,7 +407,7 @@ hr{
 }
 
 .footer-down{
-    padding: 0 5% 0 5%;
+    padding: 0 15% 0 15%;
 }
 
 
