@@ -55,7 +55,7 @@ ul {
     display: none;
 }
 .header{
-    padding: 0 15% 0 15%;
+    padding: 0 5% 0 5%;
     background-color: white;
      margin: auto;
      
@@ -105,7 +105,11 @@ hr{
 .user li{
     margin: auto;
 }
-
+.user2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .flex{
     display: flex;
     align-items: center;
@@ -166,7 +170,7 @@ hr{
     border: 2px solid black;
 }
 .main{
-    padding: 0 15% 0 15%;
+    padding: 0 5% 0 5%;
     display: flex;
     width: 100%;
     margin: auto;
@@ -274,11 +278,7 @@ hr{
     background-color: white;
     padding: 10px 20px 0 20px;
 }
-@media only screen and (max-width: 1000px){
-    .nav-bar1{
-        flex-flow: wrap;
-    }
-}
+
 @media only screen and (max-width: 800px){
     .nav-bar1{
         display: flex;
@@ -341,7 +341,7 @@ hr{
     color: #999999;
     display: flex;
     justify-content: space-between;
-    padding: 0 15% 0 15%;
+    padding: 0 5% 0 5%;
     
 }
 .footer-top-left{
@@ -407,7 +407,7 @@ hr{
 }
 
 .footer-down{
-    padding: 0 15% 0 15%;
+    padding: 0 5% 0 5%;
 }
 
 
