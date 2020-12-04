@@ -71,8 +71,39 @@ ul {
     align-items: center;
     width: 100%;
 }
+#cot{
+    font-size: 20px;
+    color: #807575f0;
+    width: auto;
+    margin: 30px 0 0 12px;
+    
+}
+#cot a:hover{
+    color: rgb(119, 230, 97);
+}
 
-
+#cot a{
+    font-size: 18px;
+    font-weight: unset;
+}
+#khoitao{
+    font-weight: 1px;
+    color: #e74c3c;
+    font-size: 13px;
+    margin-top: 15px;
+    line-height: 20px;
+    text-align: justify;
+}
+}
+#cot > a:hover{
+    color: green;
+}
+.main-box-left{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    
+}
 .box{
     height: auto;
     display: flex;
@@ -96,11 +127,11 @@ hr{
 }
 
 .list1 li {
-    margin-left: 25px;
+    padding-left: 10px;
 }
 .list1 i{   
     margin-left: 10px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 .user li{
     margin: auto;
@@ -147,8 +178,8 @@ hr{
     width: 100%;
     margin: auto;
     height: auto;
-    word-wrap: break-word;
 
+    
 }
 .nav-bar2 ul{
     text-align: center;
@@ -157,18 +188,12 @@ hr{
     display: flex;
     word-wrap: wrap;
 }
-.list2 li{
+.box li{
     padding-right: 20px;
     
 }
 
-.list2 li:hover{
-    border-bottom: 1px solid black;
-}
 
-hr{
-    border: 2px solid black;
-}
 .main{
     padding: 0 5% 0 5%;
     display: flex;
@@ -180,7 +205,7 @@ hr{
 .main-left{
     display: flex;
     flex-wrap: wrap;   
-    width: 65%;
+    width: 100%;
     padding-bottom: 40px;
     
 }
@@ -189,6 +214,7 @@ hr{
     width: 45%;
     height: auto;
     margin: 25px 25px 0 0px;
+    
     background-color: #ffffff;
     
     
@@ -222,19 +248,19 @@ hr{
     
 }
 .block i{
+    font-size: 90%;
     color: #FFB239;
 }
 
 .block:hover > img{
-    filter: brightness(70%);
-    
+    filter: brightness(70%);  
 }
 .block:hover{
     box-shadow: 0 8px 6px -10px black;
 }
 .main-right{
    width: 35%;
-   height: 900px; 
+   height: auto;
    margin: 20px auto;
 
 }
@@ -246,9 +272,8 @@ hr{
 #inf-but{
     background-color: rgb(50, 168, 50);
     color: white;
-    height: 30px;
+    height: auto;
     width: 150px;
-    
     border: none;
     border-radius: 4px;
     padding: 5px 2px 5px 2px;
@@ -272,11 +297,10 @@ hr{
     margin: 20px 0 20px 0;
 }
 .content{
-
     height: auto;
-    width: 100%;
+    width: auto;
     background-color: white;
-    padding: 10px 20px 0 20px;
+    padding: 0 5% 30px 5%;
 }
 
 @media only screen and (max-width: 800px){
@@ -285,11 +309,46 @@ hr{
         justify-content: space-between;
 
     }
+    .header{
+        padding: 0 5% 0 5%;
+    }
+    .nav-bar2{
+        
+        display: flex;        
+        justify-content: flex-end;
+        
+    }
+   i {
+       font-weight: 1px;
+        font-size: 30px;
+    }
+    .menu1{
+        padding: 0 0 0 6px ;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        width: 40px;
+        height: 30px;
+        border: 0.5px solid black;
+        display: block;
+        border-radius: 5px;
+    }
+
+    .menu1:hover{
+        filter: brightness(90%);
+        border: 0.5px solid black;
+    }
     .main{
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
+        padding: 0 5% 0 5%;
     }
+    
+    .main-box-left{
+        width: 100%;
+    }
+
     
     .main-right{
         width: 100%;
@@ -310,14 +369,7 @@ hr{
     .box{
         display: none;
     }
-    .nav-bar2{
-        display: flex;
-        justify-content: space-between;
-
-    }
-    .nav-bar2 .list2{
-        color: red;
-    }
+    
     .flex{
         display: flex;
         flex-direction: column;
@@ -326,10 +378,14 @@ hr{
         width: 100%;
 
     }
+
+    .foot{
+        padding: 30px 5% 0 5%;
+    }
 }
 
 .foot{
-    
+    padding: 30px 5% 0 5%;
     margin:  30px auto;
     height: auto;
     width: 100%;
@@ -341,23 +397,26 @@ hr{
     color: #999999;
     display: flex;
     justify-content: space-between;
-    padding: 0 5% 0 5%;
+    
     
 }
 .footer-top-left{
     display: flex;
     width: auto;
-    height: auto;
-    
+    height: auto;   
 }
 
-.footer-top-left div{
-    
-}
 .connect li{
     margin:0 0 30px 20px;
 }
+.list2 li{
+    padding-right: 20px;
+}
 
+.list2 li:hover{
+    color: green;
+    border-bottom: 1px solid black;
+}
 .list li{
     margin: 0 10px 15px 0;
 }
@@ -381,11 +440,13 @@ hr{
 .footer-top-right{
     width: auto;
     background-color:;
-    height: 500px;
+    height: auto;
 }
-
+.footer-down{
+    width: auto;
+    background-color: #F0F0F0;
+}
 .down-up{
-    
     width: 100%;
     margin: auto
 }
@@ -404,10 +465,10 @@ hr{
     display: flex;
     margin: auto;
     justify-content: space-between;
+    
 }
 
-.footer-down{
-    padding: 0 5% 0 5%;
+.down-down div{
+    width: 40%;
 }
-
 
